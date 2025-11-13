@@ -156,6 +156,35 @@
       background: transparent;
       border-top: 1px solid rgba(255, 255, 255, 0.02)
     }
+
+    .about-figure {
+      aspect-ratio: 16 / 9;
+      /* 關鍵 */
+      overflow: hidden;
+      border-radius: 12px;
+      /* 可選 */
+    }
+
+    .about-figure img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* 填滿容器不變形 */
+    }
+    .hero-figure {
+      aspect-ratio: 16 / 9;
+      /* 關鍵 */
+      overflow: hidden;
+      border-radius: 12px;
+      /* 可選 */
+    }
+
+    .ahero-figure img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* 填滿容器不變形 */
+    }
   </style>
 </head>
 
@@ -186,7 +215,7 @@
           </div>
 
           <figure class="hero-figure">
-            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=1200&q=80"
+            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=80"
               alt="在筆電前撰寫程式碼的前端開發者" loading="lazy">
           </figure>
         </div>
